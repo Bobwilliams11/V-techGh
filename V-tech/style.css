@@ -20,6 +20,13 @@
     height: 40px;
     padding-left: 30px;
 }
+.logo{
+    height:50px;
+    width:100px;
+    padding-top: 1;
+    padding-left:15;
+    padding-bottom: 20;
+}
 
 .avbar-nav li
 {
@@ -61,7 +68,7 @@
     bottom: initial! important;
 }
 .carousel-caption h5{
-    color: #fff;
+    color: rgb(3, 95, 64);
     font-size: 30px;
 }
 /*-------------About-------------*/
@@ -161,8 +168,8 @@ h1::after{
     margin:20px auto 5px;
 }
 .img-responsive{
-    height:270px;
-    width: 270px;
+    height:140px;
+    width: 140px;
 }
 .profile-pic .img-box{
     opacity: 1;
@@ -303,8 +310,103 @@ a{
     
 }
 
-/*------------V-techGh News------------*/
-#news-feed{
-    padding-top: 50px;
-    padding-bottom: 50px;
+/*------------Testimonials------------*/
+
+
+#testimonials{
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+.user1{
+    height: 120px;
+    width: 120px;
+}
+#testimonials .row{
+    margin-top: 30px;
+}
+.col-md-4{
+    margin: 40px auto;
+}
+.profile{
+    padding:70px 10px 10px;
+    background-color: #efefef;
+}
+.profile img{
+    top: -60px;
+    position:absolute;
+    left: calc(50% - 60px);
+    border:10px solid #fff;
+}
+.profile h3{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #2c250d;
+}
+#testimonial span{
+font-size: 12px;
+color:#333;
+}
+blockquote{
+    font-size: 16px;
+    line-height: 30px;
+}
+blockquote::before{
+    content:'\***';
+    font-size: 50px;
+    color: #007bff;
+    position: relative;
+    line-height: 20px;
+    bottom:-15px
+    right 5px;
+}
+.profile:hover{
+    box-shadow:0 0 15px 5px rgba(0,0,0,0.2);
+    cursor:pointer;
+    transition:0.5s;
+
+}
+/********Get In Touch***************/
+#contact{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form{
+    padding:15px;
+
+}
+.form-control{
+    border-radius: 0 !important ;
+    border: none !important;
+
+}
+::placeholder{
+    color: #999 !important;
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+.follow{
+    background-color: #fff;
+    padding:10px;
+    margin: 15px;
+}
+.contact-info .fa{
+margin: 10px;
+color: #007bff;
+font-weight: bold;
+}
+
+/*--------------------Footer-------------*/
+#footer{
+    background: #333;
+    color:#fff;
+    padding:12px
+} 
+.fa-heart-o{
+    margin:3px;
+    color:red;
 }

@@ -22,10 +22,10 @@
 }
 .logo{
     height:50px;
-    width:100px;
-    padding-top: 1;
+    width:90px;
+    padding-top: 0;
     padding-left:15;
-    padding-bottom: 20;
+    padding-bottom: 30;
 }
 
 .avbar-nav li
@@ -238,11 +238,10 @@ h1::after{
 /*-----Price Plan-----------*/
 #price{
     padding:40px 0;
-    background: #efefef;
+    background: #f3e8e8;
 }
 .single-price{
-    margin: 10px auto;
-   
+    margin: 9px auto; 
     float: left;
     background-color:#fff;
     transition: 0.5s; 
